@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1080px}
+  body{background:#F6F8FC;font-family:'Inter',sans-serif;color:#0B1F4B;position:relative;overflow:hidden}
+  .bar{position:absolute;left:0;top:0;width:100%;height:14px;background:#0B3D91}
+  .wrap{position:absolute;inset:0;padding:104px 80px 88px;display:flex;flex-direction:column}
+  h1{font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:82px;line-height:1.08;letter-spacing:-2.2px}
+  h1 span{color:#0B3D91}
+  .cards{margin-top:auto;display:flex;gap:40px;height:500px}
+  .card{flex:1;border-radius:36px;padding:48px 48px 52px;display:flex;flex-direction:column;position:relative}
+  .a{background:#fff;border:5px solid #0B3D91;color:#0B3D91}
+  .b{background:#0B3D91;border:5px solid #0B3D91;color:#fff}
+  .letter{font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:150px;line-height:1;letter-spacing:-4px}
+  .name{margin-top:auto;font-family:'Inter Display','Inter',sans-serif;font-weight:800;font-size:76px;letter-spacing:-2px;line-height:1}
+  .icon{position:absolute;right:44px;top:52px;width:132px;height:132px}
+</style></head>
+<body>
+  <div class="bar"></div>
+  <div class="wrap">
+    <h1>A policy rule changes.<br><span>Who makes the change?</span></h1>
+    <div class="cards">
+      <div class="card a">
+        <svg class="icon" viewBox="0 0 120 120" fill="none" stroke="#0B3D91" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="22" y="12" width="76" height="96" rx="10"/>
+          <path d="M38 40l7 7 13-14"/><path d="M68 42h16"/>
+          <path d="M38 68l7 7 13-14"/><path d="M68 70h16"/>
+          <path d="M38 92h46"/>
+        </svg>
+        <div class="letter">A</div>
+        <div class="name">Business</div>
+      </div>
+      <div class="card b">
+        <svg class="icon" viewBox="0 0 120 120" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="10" y="18" width="100" height="84" rx="10"/>
+          <path d="M10 40h100"/>
+          <path d="M44 58l-14 13 14 13"/><path d="M76 58l14 13-14 13"/><path d="M65 54l-10 34"/>
+        </svg>
+        <div class="letter">B</div>
+        <div class="name">IT</div>
+      </div>
+    </div>
+  </div>
+</body></html>
